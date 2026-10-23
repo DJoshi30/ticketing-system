@@ -1,0 +1,37 @@
+﻿# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE - IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# IDE - VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment / secrets
+.env
+application-local.properties
+application-secrets.properties
+
+# H2 file-based database
+*.mv.db
+*.trace.db
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
