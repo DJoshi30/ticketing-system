@@ -23,6 +23,6 @@ jobs:
           cache: maven
 
       - name: Build with Maven
-        run: ./mvnw clean package
+        run: bash ./mvnw clean package
         env:
           JWT_SECRET: ${{ secrets.JWT_SECRET }}
